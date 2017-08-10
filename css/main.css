@@ -159,7 +159,7 @@ col-md-4 {
     background-color: black;
     opacity: 0.6;
     padding: 5em 1em;
-    height: 70em;
+    height: 65em;
 }
 
 .form h3 {
@@ -176,8 +176,26 @@ col-md-4 {
     font-size: 2em;
 }
 
+.form button {
+    background-color: red;
+    font-size: 3em;
+}
+
 .iframe {
     padding: 2em 1em;
-    height: 70em;
+    height: 65em;
     background-color: white;
+}
+
+
+/*Footer*/
+
+footer .fa {
+    color: blue;
+    font-size: 4em;
+}
+
+footer h3 {
+    color: red;
+    font-size: 3em;
 }
