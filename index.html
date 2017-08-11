@@ -25,6 +25,10 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <!--Main CSS-->
     <link rel="stylesheet" href="css/main.css">
+    <!--Featherlink CSS-->
+    <link href="/css/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <!--Scrollpress CSS-->
+    <link href="/css/scrollPress.css" rel="stylesheet">
 </head>
 
 <body>
@@ -72,21 +76,21 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <img src="images/irish-coffee.jpg" alt="irishcoffee" class="img-responsive" style="display:inline">
-                    <a href="#">
+                    <a href="#" data-featherlight="images/irish-coffee.jpg">
                         <h2>Irish Coffee</h2>
                     </a>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <img src="images/turkish-coffee.jpg" alt="turkishcoffee" class="img-responsive" style="display:inline">
-                    <a href="#">
+                    <a href="#" data-featherlight="images/turkish-coffee.jpg">
                         <h2>Turkish Coffee</h2>
                     </a>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <img src="images/mocha-coffee.jpg" alt="mochacoffee" class="img-responsive" style="display:inline">
-                    <a href="#">
+                    <a href="#" data-featherlight="images/mocha-coffee.jpg">
                         <h2>Caffe Mocha</h2>
                     </a>
                 </div>
@@ -94,21 +98,21 @@
 
                 <div class="col-md-4 col-sm-6">
                     <img src="images/espresso-coffee.jpg" alt="espresso coffee" class="img-responsive" style="display:inline">
-                    <a href="#">
+                    <a href="#" data-featherlight="images/espresso-coffee.jpg">
                         <h2>Espresso</h2>
                     </a>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <img src="images/iced-coffee.jpg" alt="icedcoffee" class="img-responsive" style="display:inline">
-                    <a href="#">
+                    <a href="#" data-featherlight="images/iced-coffee.jpg">
                         <h2>Iced Coffee</h2>
                     </a>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <img src="images/long-black.jpg" alt="longblack" class="img-responsive" style="display:inline">
-                    <a href="#">
+                    <a href="#" data-featherlight="images/long-black.jpg">
                         <h2>Long Black</h2>
                     </a>
                 </div>
@@ -182,6 +186,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--Featherlight jQuery-->
+    <script src="/js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--Scrollress jQuery-->
+    <script src="/js/scrollPress.js"></script>
+    <script>
+        $(window).scrollPress();
+
+    </script>
+
 </body>
 
 </html>
